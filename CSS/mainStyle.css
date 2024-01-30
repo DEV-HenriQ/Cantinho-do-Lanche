@@ -16,6 +16,13 @@ body
    overflow-x: hidden;
 }
 
+main
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
 .header
 {
    display: flex;

@@ -39,6 +39,21 @@
    {
       padding: .5rem;
    }
+
+   .fiteiro-img
+   {
+      width: 250px;
+   }
+
+   #about div p
+   {
+      font-size: 1rem;
+   }
+
+   #about
+   {
+      gap: 0;
+   }
 }
 
 @media screen and (max-width: 300px)
