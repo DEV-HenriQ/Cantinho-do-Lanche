@@ -1,3 +1,11 @@
+@media screen and (max-width: 1200px)
+{
+   #about
+   {
+      flex-direction: column;
+   }
+}
+
 @media screen and (max-width: 768px)
 {
    .logo-header
@@ -15,6 +23,16 @@
       display: flex;
       flex-direction: column;
       font-size: .7rem;
+   }
+
+   .fiteiro-img
+   {
+      width: 330px;
+   }
+
+   .header-text
+   {
+      font-size: 1.4rem;
    }
 }
 
@@ -47,7 +65,7 @@
 
    #about div p
    {
-      font-size: 1rem;
+      font-size: 1.4rem;
    }
 
    #about
@@ -62,5 +80,10 @@
    {
       flex-direction: column;
       gap: 10px;
+   }
+
+   #about div p
+   {
+      font-size: 1rem;
    }
 }
