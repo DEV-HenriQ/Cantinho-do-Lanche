@@ -12,6 +12,8 @@ body
    justify-content: space-between;
    align-items: center;
    text-align: center;
+   background-color: #1f343d;
+   overflow-x: hidden;
 }
 
 .header
@@ -55,7 +57,7 @@ body
    align-items: center;
    row-gap: 30px;
    border-radius: 50%;
-   position: absolute;
+   position: fixed;
    bottom: 50px;
    right: 10px;
    cursor: pointer;
@@ -68,7 +70,7 @@ body
 
 .mensagem-de-hover
 {
-   position: absolute;
+   position: fixed;
    bottom: 103px;
    right: 10px;
    background-color: #617d8a;
@@ -99,4 +101,60 @@ body
 .signature a:hover
 {
    color: rgb(222, 184, 135);
+}
+
+#about
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   padding: 2rem;
+   gap: 5rem;
+   height: 100vh;
+   flex-wrap: wrap;
+}
+
+#about p
+{
+   max-width: 50rem;
+   text-align: center;
+   color: #fff;
+   font-size: 1.8rem;
+}
+
+#about div
+{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.pedir-btn
+{
+   outline: 0;
+   border: 0;
+   width: 150px;
+   height: 50px;
+   padding: 10px;
+   border-radius: 50px;
+   color: #fff;
+   background-color: #617d8a;
+   font-size: 1.3rem;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.pedir-btn:hover
+{
+   background-color: #f705f7;
+   color: #13003d;
+}
+
+#about div a
+{
+   display: flex; justify-content: center; align-items: center;
+   text-align: center;
 }
