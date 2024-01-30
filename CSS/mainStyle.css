@@ -1,0 +1,39 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+@font-face {
+   font-family: "Chery";
+   src: url(../FONTS/CHERI___.TTF);
+}
+
+body
+{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header
+{
+   display: flex;
+   width: 100vw;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #617d8a;
+   box-shadow: 2px 2px 5px #000;
+}
+
+.header a
+{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   text-decoration: none;
+   color: white;
+}
+
+.header-text
+{
+   font-size: 1.7rem;
+   font-family: "Chery";
+}
