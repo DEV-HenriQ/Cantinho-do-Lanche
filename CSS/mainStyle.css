@@ -11,6 +11,7 @@ body
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
+   text-align: center;
 }
 
 .header
@@ -56,7 +57,7 @@ body
    border-radius: 50%;
    position: absolute;
    bottom: 50px;
-   right: 50px;
+   right: 10px;
    cursor: pointer;
 }
 
@@ -69,11 +70,13 @@ body
 {
    position: absolute;
    bottom: 103px;
-   right: 30px;
+   right: 10px;
    background-color: #617d8a;
    color: bisque;
    opacity: 0;
    transition: 1s;
+   text-align: center;
+   padding: 2px;
 }
 
 .footer
