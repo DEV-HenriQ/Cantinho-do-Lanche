@@ -22,12 +22,13 @@ main
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   width: 100%;
 }
 
 .header
 {
    display: flex;
-   width: 100vw;
+   width: 100%;
    justify-content: space-between;
    align-items: center;
    background-color: #617d8a;
@@ -92,7 +93,7 @@ main
 .footer
 {
    background-color: #617d8a;
-   width: 100vw;
+   width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -174,6 +175,7 @@ figcaption
    padding-left: 2rem;
    color: #fff;
    font-family: 'Bevan', serif;
+   transition: .4s;
 }
 
 .produtos figure:hover figcaption
@@ -202,25 +204,34 @@ figcaption
 {
    outline: 0;
    border: 0;
-   width: 150px;
-   height: 50px;
-   padding: 10px;
+   width: 180px;
+   height: 80px;
+   padding: 20px;
    border-radius: 50px;
    color: #fff;
    background-color: #617d8a;
    font-size: 1.3rem;
    text-decoration: none;
    cursor: pointer;
+   display: flex; justify-content: center; align-items: center;
+   text-align: center;
+   box-shadow: 2px 1px 3px #29c565;
 }
 
 .pedir-btn:hover
 {
    background-color: #f705f7;
-   color: #13003d;
+   color: #29c565;
 }
 
-#about div a
+#itens a.pedir-btn
 {
-   display: flex; justify-content: center; align-items: center;
-   text-align: center;
+   background-color: #13003d;
+   box-shadow: 2px 1px 3px #f705f7;
+}
+
+#itens a.pedir-btn:hover
+{
+   color: #f705f7;
+   background-color: #fff;
 }

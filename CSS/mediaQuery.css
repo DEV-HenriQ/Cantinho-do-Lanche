@@ -119,10 +119,12 @@
    .item-img {height: 133.33333333px;}
 
    #itens h1 {font-size: 1.4rem; width: 100vw;}
-   #itens {padding: 0;}
+   #itens {padding: 1rem 0;}
 
    .produtos {padding: 0; gap: 5px; margin: 10px 0;}
    .produtos figure {margin: 5px;}
+
+   .signature a {font-size: 1rem;}
 }
 
 @media screen and (max-width: 300px)
