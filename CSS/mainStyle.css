@@ -24,7 +24,7 @@ main
    align-items: center;
    width: 100%;
    min-height: 100vh;
-   margin-top: 180px;
+   row-gap: auto;
 }
 
 .header
@@ -122,8 +122,8 @@ main
    justify-content: center;
    min-width: 100vw;
    gap: 5rem;
-   height: 100vh;
-   margin: 50px auto 150px auto;
+   min-height: 100vh;
+   margin: 50px auto;
    padding: 2rem 8px;
 }
 
