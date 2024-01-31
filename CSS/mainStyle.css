@@ -7,7 +7,6 @@
 
 body
 {
-   min-height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -22,13 +21,16 @@ main
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   align-items: center;
    width: 100%;
+   min-height: 100vh;
+   margin-top: 180px;
 }
 
 .header
 {
    display: flex;
-   width: 100%;
+   width: 100vw;
    justify-content: space-between;
    align-items: center;
    background-color: #617d8a;
@@ -121,8 +123,8 @@ main
    min-width: 100vw;
    gap: 5rem;
    height: 100vh;
-   margin: 150px auto;
-   padding: 2rem;
+   margin: 50px auto 150px auto;
+   padding: 2rem 8px;
 }
 
 #itens

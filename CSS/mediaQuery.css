@@ -132,7 +132,7 @@
    .header
    {
       flex-direction: column;
-      gap: 10px;
+      row-gap: 10px;
    }
 
    #about div p
