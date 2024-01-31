@@ -167,6 +167,7 @@ main
    flex-direction: column;
    justify-content: left;
    cursor: pointer;
+   transition: .5s;
 }
 
 figcaption
@@ -183,6 +184,11 @@ figcaption
 .produtos figure:hover figcaption
 {
    color: #f705f7;
+}
+
+.produtos figure:hover
+{
+   scale: 1.1;
 }
 
 #about p
