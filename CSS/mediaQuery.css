@@ -70,7 +70,7 @@
       width: 100%;
    }
 
-   #itens h1
+   #itens h1, #contato h2
    {
       font-size: 1.8rem;
    }
@@ -126,7 +126,7 @@
 
    .item-img {height: 133.33333333px;}
 
-   #itens h1 {font-size: 1.4rem; width: 100vw;}
+   #itens h1, #contato h2 {font-size: 1.4rem; width: 100vw;}
    #itens {padding: 1rem 0;}
 
    .produtos {padding: 0; gap: 5px; margin: 10px 0;}
