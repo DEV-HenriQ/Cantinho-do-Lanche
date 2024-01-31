@@ -22,7 +22,7 @@ main
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
-   width: 100%;
+   width: 100vw;
    min-height: 100vh;
    row-gap: auto;
 }
@@ -95,7 +95,7 @@ main
 .footer
 {
    background-color: #617d8a;
-   width: 100%;
+   width: 100vw;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -115,7 +115,7 @@ main
    color: rgb(222, 184, 135);
 }
 
-#about
+#about, #contato
 {
    display: flex;
    align-items: center;
@@ -126,6 +126,8 @@ main
    margin: 50px auto;
    padding: 2rem 8px;
 }
+
+#contato {flex-direction: column;}
 
 #itens
 {
@@ -191,7 +193,7 @@ figcaption
    scale: 1.1;
 }
 
-#about p
+#about p, #contato div p
 {
    max-width: 50rem;
    text-align: center;
@@ -242,4 +244,11 @@ figcaption
 {
    color: #f705f7;
    background-color: #fff;
+}
+
+#contato div
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
