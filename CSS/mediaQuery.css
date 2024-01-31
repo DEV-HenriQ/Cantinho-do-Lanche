@@ -36,6 +36,43 @@
    }
 }
 
+@media screen and (max-width: 620px)
+{
+   .produtos
+   {
+      padding: 1rem;
+      width: 100%;
+   }
+
+   .produtos figure
+   {
+      width: 300px;
+      margin: 20px;
+   }
+
+   .item-img
+   {
+      width: 300px;
+      height: 200px;
+   }
+
+   #itens
+   {
+      padding: .5rem;
+      width: 100%;
+   }
+
+   #itens h1
+   {
+      font-size: 1.8rem;
+   }
+
+   figcaption
+   {
+      width: 300px;
+   }
+}
+
 @media screen and (max-width: 540px)
 {
    .div-whatsapp span
@@ -72,6 +109,20 @@
    {
       gap: 0;
    }
+}
+
+@media screen and (max-width: 350px)
+{
+   .item-img, figcaption, .produtos figure {width: 200px;}
+   figcaption {text-align: center; padding-left: 0;}
+
+   .item-img {height: 133.33333333px;}
+
+   #itens h1 {font-size: 1.4rem; width: 100vw;}
+   #itens {padding: 0;}
+
+   .produtos {padding: 0; gap: 5px; margin: 10px 0;}
+   .produtos figure {margin: 5px;}
 }
 
 @media screen and (max-width: 300px)

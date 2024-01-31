@@ -18,3 +18,11 @@
 {
    border-radius: 20px;
 }
+
+.item-img
+{
+   width: 450px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 5px #000;
+}
