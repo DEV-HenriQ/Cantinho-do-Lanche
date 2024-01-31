@@ -1,0 +1,3 @@
+%0A = Enter (Quebra de Linha)
+%20 = Espaço
+href="https://wa.me/+558198249582?text=Nome: fulano%0AEndereço: teste"
