@@ -1,3 +1,18 @@
+@font-face {
+   font-family: 'Arial Black';
+   src: url(../FONTS/arial-black.ttf);
+}
+
+@font-face {
+   font-family: 'Algerian';
+   src: url(../FONTS/algerian.ttf);
+}
+
+@font-face {
+   font-family: 'Cooper Black';
+   src: url(../FONTS/cooper-black.ttf);
+}
+
 main
 {
    justify-content: start;
@@ -38,7 +53,7 @@ main
    animation: shake 1s 1s infinite linear;
 }
 
-.tabela-de-precos, .form
+.form, .tabela
 {
    border: 1px solid #fff;
    padding: 2rem;
@@ -55,3 +70,48 @@ main
    justify-content: center;
    gap: 1rem;
 }
+
+.tabela
+{
+   text-align: left;
+}
+
+.tabela * {display: inline-block;}
+
+.tabela h2
+{
+   font-size: 20pt;
+   text-transform: uppercase;
+   font-family: 'Arial Black';
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.titulo-tabela
+{
+   font-family: 'Algerian';
+   font-size: 18pt;
+   margin-bottom: 10px;
+}
+
+.item-tabela
+{
+   font-size: 14pt;
+   font-family: 'Cooper Black';
+   margin-left: 30px;
+   margin-bottom: 10px;
+}
+
+.flex-tabela
+{
+   display: flex;
+   flex-direction: column;
+}
+
+.ul-tabela
+{
+   margin-left: 100px;
+   font-family: 'Cooper Black';
+}
+
+.ul-tabela li {display: list-item;}
