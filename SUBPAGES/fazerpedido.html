@@ -40,12 +40,56 @@
             <span class="mensagem-de-hover">Ir para o topo</span>
          </a>
 
-         <section id="pedido">
-            <div>
+         <div class="container">
+            <section id="titulo">
                <h1>Faça seu pedido!</h1>
-               <p>Obs.: Por padrão, cobramos <span class="taxa">taxa de entrega</span> de <span class="valor">R$ 5,00</span> 🛵</p>
-            </div>
-         </section>
+               <h2>
+                  Obs.: Por padrão, cobramos <span class="taxa">taxa de entrega</span> de <span class="valor">R$ 5,00</span> 🛵
+               </h2>
+            </section>
+            <section id="pedido">
+               <figure>
+                  <img src="../IMG/tabela-de-precos.jpg" alt="tabela de preços" class="tabela-de-precos">
+               </figure>
+
+               <div class="form">
+                  <fieldset>
+                     <legend>Dados Pessoais</legend>
+
+                     <label for="nome">Nome</label>
+                     <input id="nome" type="text" placeholder="Ex.: Amanda Isabely">
+
+                     <label for="telefone">Telefone</label>
+                     <input id="telefone" type="text" placeholder="Ex.: (81) 9 9824-9582">
+
+                     <label for="endereco">Endereço</label>
+                     <input type="text" id="endereco" placeholder="Ex.: Rua Santo Ozias, Nº 96">
+
+                     <label for="referencia">Ponto de Referencia</label>
+                     <input type="text" id="referencia" placeholder="Ex.: Por trás da cultural FM">
+                  </fieldset>
+
+                  <fieldset>
+                     <legend>Pedido</legend>
+
+                     <label for="textpedido">Escreva seu pedido abaixo:</label>
+                     <textarea id="textpedido" cols="30" rows="10" placeholder="Ex.: 1 coxinha 2 pastel 3 refrigerantes"></textarea>
+                  </fieldset>
+
+                  <fieldset>
+                     <legend>Pagamento</legend>
+
+                     <label for="forma">Forma de Pagamento</label>
+                     <select id="forma">
+                        <option value="dinheiro">Dinheiro 💰</option>
+                        <option value="pix">Pix ❖</option>
+                     </select>
+                  </fieldset>
+
+                  <a href="#">Pedir</a>
+               </div>
+            </section>
+         </div>
       </main>
       <footer class="footer">
          <span class="signature"> &diams; Desenvolvido & codificado por: <a href="https://github.com/DEV-HenriQ" target="_blank">devjh</a> &diams;</span>
