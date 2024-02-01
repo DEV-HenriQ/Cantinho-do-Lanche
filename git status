@@ -1,0 +1,32 @@
+[33m2a39987[m[33m ([m[1;36mHEAD -> [m[1;32mstaging[m[33m, [m[1;31morigin/staging[m[33m)[m HEAD@{0}: commit: substituindo foto por div
+[33mc69defd[m HEAD@{1}: commit: update fazerpedido.html (poucas mudanças)
+[33md2bcb5a[m HEAD@{2}: commit: primeira versão de formulário
+[33m746f636[m HEAD@{3}: commit: reciclando media Query e fazendo animação de taxa de entrega
+[33m255f617[m HEAD@{4}: commit: Mudança de título
+[33m410ec65[m HEAD@{5}: commit: reciclando css em comum
+[33maaf2daf[m HEAD@{6}: commit: testes nova branch
+[33mebc6c24[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: checkout: moving from main to staging
+[33mebc6c24[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{8}: commit: ajustando padding dos textos
+[33m3b37d6a[m HEAD@{9}: commit: overflow-x: hidden no html
+[33m2d75981[m HEAD@{10}: commit: trocando imagem de refrigerante
+[33m2903006[m HEAD@{11}: commit: editando textos do site
+[33m5825386[m HEAD@{12}: commit: adicionando loading lazy para carregamento mais rápido
+[33mf9da83f[m HEAD@{13}: commit: adicionando título na section contato
+[33m0e8ae8d[m HEAD@{14}: commit: adicionando section de contato e ajustando media queries
+[33m9b8bbce[m HEAD@{15}: commit: Adicionando link personalizado para whatsapp
+[33m99d07e1[m HEAD@{16}: commit: Consertando problemas em telas com altura pequena
+[33m0d34c7d[m HEAD@{17}: commit: Adicionando animação de Scale nos produtos
+[33m692e207[m HEAD@{18}: commit: Ajustes em media queries
+[33m6ab68e2[m HEAD@{19}: commit: ajustes no botão de pedir
+[33m325119a[m HEAD@{20}: commit: Adicionei fotos dos produtos
+[33mcca76a1[m HEAD@{21}: commit: Troca de imagens (webp)
+[33m6f59d29[m HEAD@{22}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33m547689f[m HEAD@{23}: commit: Adicionando imagens de itens (pasta)
+[33m0c976be[m HEAD@{24}: commit: Ajustando media Queries
+[33m1908f1e[m HEAD@{25}: commit: Main display flex
+[33m99c1222[m HEAD@{26}: commit: Add section about
+[33m0bae08e[m HEAD@{27}: commit: Adicionando media Queries
+[33m67ea789[m HEAD@{28}: commit: Adicionando seta para ir ao topo
+[33m84eda74[m HEAD@{29}: commit: Adicionando Header
+[33m4a73e8a[m HEAD@{30}: commit: Adicionando Fotos de Logo
+[33m778ba8b[m HEAD@{31}: commit (initial): Initial commit
