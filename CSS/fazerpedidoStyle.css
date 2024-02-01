@@ -2,3 +2,24 @@ main
 {
    justify-content: center;
 }
+
+#pedido div 
+{
+   font-size: 1.4rem;
+   color: #fff;
+   text-transform: uppercase;
+   font-family: 'Abril Fatface';
+}
+
+.taxa
+{
+   display: inline-block;
+   margin: 0 1rem;
+   animation: slideFade 1s forwards, changeColor 1s 1s infinite;
+}
+
+.valor
+{
+   display: inline-block;
+   animation: shake 1s 1s infinite linear;
+}

@@ -1,0 +1,39 @@
+@keyframes changeColor
+{
+   0% {
+      color: #fff;
+      transform: scale(1);
+   }
+   33.33% {
+      color: var(--green);
+      transform: scale(1.1);
+   }
+   66.67% {color: var(--pink);}
+   100% {
+      color: #fff;
+      transform: scale(1);
+   }
+}
+
+@keyframes slideFade
+{
+   0%
+   {
+      opacity: 0;
+      transform: translateX(-100px);
+   }
+
+   100%
+   {
+      opacity: 1;
+      transform: translateX(0px);
+   }
+}
+
+@keyframes shake
+{
+   0% {transform: rotate(0deg);}
+   33.33% {transform: rotate(-5deg); color: var(--pink);}
+   66.67% {transform: rotate(5deg); color: var(--green);}
+   100% {transform: rotate(0deg);}
+}
