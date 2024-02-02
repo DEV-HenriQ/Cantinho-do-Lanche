@@ -96,6 +96,7 @@ main
    bottom: 50px;
    right: 10px;
    cursor: pointer;
+   z-index: 1;
 }
 
 .div-btn-to-top:hover .mensagem-de-hover
