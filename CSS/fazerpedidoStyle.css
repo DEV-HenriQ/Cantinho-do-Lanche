@@ -13,6 +13,11 @@
    src: url(../FONTS/cooper-black.ttf);
 }
 
+@font-face {
+   font-family: 'Super Magic';
+   src: url(../FONTS/Super\ Magic.ttf);
+}
+
 main
 {
    justify-content: start;
@@ -97,10 +102,13 @@ main
 .tipo-de-lanche legend
 {
    color: #fff;
-   font-family: "Abril Fatface";
+   font-family: "Super Magic", cursive;
    padding: 10px;
-   font-size: 1.5rem;
+   font-size: 2.5rem;
+   font-style: oblique;
    text-transform: uppercase;
+   text-shadow: 2px 2px 5px var(--green);
+   animation: scaling 5s infinite;
 }
 
 .item-de-compra
@@ -175,7 +183,7 @@ main
 .texto-e-descricao > span
 {
    font-family: 'Arial Black';
-   font-size: 1.3rem;
+   font-size: 1.5rem;
    color: var(--pink);
 }
 
