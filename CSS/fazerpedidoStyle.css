@@ -183,3 +183,26 @@ main
    border-radius: 20px;
    cursor: pointer;
 }
+
+/* keyframes dis itens */
+
+.slideNappear {opacity: 0; animation: slideNappear .3s forwards;}
+.slideNappear2 {opacity: 0; animation: slideNappear .3s .3s forwards;}
+.slideNappear3 {opacity: 0; animation: slideNappear .3s .6s forwards;}
+.slideNappear4 {opacity: 0; animation: slideNappear .3s .9s forwards;}
+.slideNappear5 {opacity: 0; animation: slideNappear .3s 1.2s forwards;}
+.slideNappear6 {opacity: 0; animation: slideNappear .3s 1.5s forwards;}
+.slideNappear7 {opacity: 0; animation: slideNappear .3s 1.8s forwards;}
+.slideNappear8 {opacity: 0; animation: slideNappear .3s 2.1s forwards;}
+.slideNappear9 {opacity: 0; animation: slideNappear .3s 2.4s forwards;}
+.slideNappear10 {opacity: 0; animation: slideNappear .3s 2.7s forwards;}
+
+@keyframes slideNappear 
+{
+   0%
+   {
+      opacity: 0;
+      transform: translateX(-300px);
+   }
+   100% {transform: translateX(0); opacity: 1;}
+}
