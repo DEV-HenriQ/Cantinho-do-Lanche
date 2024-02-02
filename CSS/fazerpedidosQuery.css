@@ -1,0 +1,55 @@
+@media screen and (max-width: 650px)
+{
+   .square-img, .item-de-compra figure figcaption
+   {
+      width: 296px;
+      height: 250px;
+      border-radius: 0;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+   }
+
+   .item-de-compra
+   {
+      flex-direction: column;
+      height: 500px;
+      width: 300px;
+   }
+
+   .texto-e-descricao
+   {
+      height: 100%;
+   }
+}
+
+@media screen and (max-width: 430px)
+{
+   #titulo, #titulo h2
+   {
+      padding: .5rem;
+      font-size: 1.2rem;
+   }
+}
+
+@media screen and (max-width: 380px)
+{
+   .item-de-compra
+   {
+      height: 550px;
+      width: 200px;
+   }
+
+   .square-img, .item-de-compra figure figcaption
+   {
+      width: 196px;
+      height: 250px;
+   }
+}
+
+@media screen and (max-width: 300px)
+{
+   #titulo, #titulo h2
+   {
+      font-size: .9rem;
+   }
+}
