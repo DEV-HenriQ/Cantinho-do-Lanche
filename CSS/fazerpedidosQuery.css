@@ -12,13 +12,19 @@
    .item-de-compra
    {
       flex-direction: column;
-      height: 500px;
+      height: 100%;
       width: 300px;
+   }
+
+   .texto-e-descricao p
+   {
+      height: 100%;
+      font-size: .9rem;
    }
 
    .texto-e-descricao
    {
-      height: 100%;
+      row-gap: 20px;
    }
 }
 
@@ -29,19 +35,25 @@
       padding: .5rem;
       font-size: 1.2rem;
    }
+
+   .tipo-de-lanche
+   {
+      padding: 0;
+      margin: 20px;
+      border: 0;
+   }
+
+   .item-de-compra, .square-img, .item-de-compra figure figcaption
+   {
+      width: 100%;
+      max-width: 300px;
+   }
 }
 
 @media screen and (max-width: 380px)
 {
-   .item-de-compra
-   {
-      height: 550px;
-      width: 200px;
-   }
-
    .square-img, .item-de-compra figure figcaption
    {
-      width: 196px;
       height: 250px;
    }
 }
