@@ -196,6 +196,13 @@ main
 .slideNappear8 {opacity: 0; animation: slideNappear .3s 2.1s forwards;}
 .slideNappear9 {opacity: 0; animation: slideNappear .3s 2.4s forwards;}
 .slideNappear10 {opacity: 0; animation: slideNappear .3s 2.7s forwards;}
+.slideNappear11 {opacity: 0; animation: slideNappear .3s 3s forwards;}
+.slideNappear12 {opacity: 0; animation: slideNappear .3s 3.3s forwards;}
+.slideNappear13 {opacity: 0; animation: slideNappear .3s 3.6s forwards;}
+.slideNappear14 {opacity: 0; animation: slideNappear .3s 3.9s forwards;}
+.slideNappear15 {opacity: 0; animation: slideNappear .3s 4.2s forwards;}
+.slideNappear16 {opacity: 0; animation: slideNappear .3s 4.5s forwards;}
+.slideNappear17 {opacity: 0; animation: slideNappear .3s 4.8s forwards;}
 
 @keyframes slideNappear 
 {
