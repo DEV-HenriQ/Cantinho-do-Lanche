@@ -42,78 +42,120 @@
 
          <div class="container">
             <section id="titulo">
-               <h1>Faça seu pedido!</h1>
+               <h1>Escolha seu Lanche!</h1>
+               <p>adicione itens no carrinho e passe para a próxima etapa</p>
                <h2>
                   Obs.: Por padrão, cobramos <span class="taxa">taxa de entrega</span> de <span class="valor">R$ 5,00</span> 🛵
                </h2>
             </section>
-            <section id="pedido">
-               <div class="tabela">
-                  <h2>tabela de preços</h2>
-                  <span class="titulo-tabela">SALGADOS</span>
-                     <div class="flex-tabela">
-                        <span class="item-tabela">COXINHA M – R$ 3,50</span>
-                        <span class="item-tabela">COXINHA P – R$ 2,50</span>
-                        <span class="item-tabela">ENROLADINHO – R$ 3,00</span>
-                        <span class="item-tabela">PASTEL – R$ 5,00</span>
+            <fieldset class="tipo-de-lanche">
+               <legend>Salgados</legend>
+
+               <div class="item-de-compra">
+                  <figure>
+                     <img class="square-img" src="../IMG/ITENS/coxinha-g.webp" alt="coxinha de tamanho médio">
+                     <figcaption>
+                        Uma coxinha média, delicadamente dourada, com recheio generoso de frango, proporcionando uma experiência equilibrada e deliciosamente irresistível a cada apreciação. 🍗🥟✨
+                     </figcaption>
+                  </figure>
+                  <div class="texto-e-descricao">
+                     <h3>coxinha média</h3>
+                     <p>
+                        Uma coxinha média, delicadamente dourada, com recheio generoso de frango, proporcionando uma experiência equilibrada e deliciosamente irresistível a cada apreciação. 🍗🥟✨
+                     </p>
+                     <span>R$ 3,50</span>
+                     <div class="botoes-de-acao">
+                        <span class="diminuir-qtd">-</span>
+                        <span class="qtd">0</span>
+                        <span class="adicionar-qtd">+</span>
                      </div>
-                  <span class="titulo-tabela">GELADOS</span><br>
-                     <span class="item-tabela">DUDU (SABORES) – R$ 2,00</span>
-                     <ul class="ul-tabela">
-                        <li>COCO</li>
-                        <li>GOIABA</li>
-                        <li>MARACUJÁ</li>
-                        <li>CAJÁ</li>
-                        <li>COCO C/ CHOCOLATE</li>
-                     </ul><br>
-                  <span class="titulo-tabela">DOCES</span>
-                     <div class="flex-tabela">
-                        <span class="item-tabela">BRIGADEIRÃO – R$ 1,50</span>
-                        <span class="item-tabela">PASTEL LOLITA – R$ 2,00</span>
-                     </div>
-                  <span class="titulo-tabela">BEBIDAS</span>
-                     <div class="flex-tabela">
-                        <span class="item-tabela">REFRIGERANTE 250ML – R$ 2,00</span>
-                     </div>
+                  </div>
                </div>
 
-               <div class="form">
-                  <fieldset>
-                     <legend>Dados Pessoais</legend>
-
-                     <label for="nome">Nome: </label>
-                     <input id="nome" type="text" placeholder="Ex.: Amanda Isabely">
-
-                     <label for="telefone">Telefone: </label>
-                     <input id="telefone" type="text" placeholder="Ex.: (81) 9 9824-9582">
-
-                     <label for="endereco">Endereço: </label>
-                     <input type="text" id="endereco" placeholder="Ex.: Rua Santo Ozias, Nº 96">
-
-                     <label for="referencia">Ponto de Referencia: </label>
-                     <input type="text" id="referencia" placeholder="Ex.: Por trás da cultural FM">
-                  </fieldset>
-
-                  <fieldset>
-                     <legend>Pedido</legend>
-
-                     <label for="textpedido">Escreva seu pedido abaixo:</label>
-                     <textarea id="textpedido" cols="30" rows="10" placeholder="Ex.: 1 coxinha 2 pastel 3 refrigerantes"></textarea>
-                  </fieldset>
-
-                  <fieldset>
-                     <legend>Pagamento</legend>
-
-                     <label for="forma">Forma de Pagamento:    </label>
-                     <select id="forma">
-                        <option value="dinheiro">Dinheiro 💰</option>
-                        <option value="pix">Pix ❖</option>
-                     </select>
-                  </fieldset>
-
-                  <a href="#">Pedir</a>
+               <div class="item-de-compra">
+                  <figure>
+                     <img class="square-img" src="../IMG/ITENS/coxinha.webp" alt="coxinha de tamanho pequeno">
+                     <figcaption>
+                        Uma coxinha pequena, grande em sabor! A mordida perfeita revela um recheio suculento de frango, proporcionando uma experiência irresistível a cada pedacinho crocante. Imperdível! 🍗🥟✨
+                     </figcaption>
+                  </figure>
+                  <div class="texto-e-descricao">
+                     <h3>coxinha pequena</h3>
+                     <p>
+                        Uma coxinha pequena, grande em sabor! A mordida perfeita revela um recheio suculento de frango, proporcionando uma experiência irresistível a cada pedacinho crocante. Imperdível! 🍗🥟✨
+                     </p>
+                     <span>R$ 2,50</span>
+                     <div class="botoes-de-acao">
+                        <span class="diminuir-qtd">-</span>
+                        <span class="qtd">0</span>
+                        <span class="adicionar-qtd">+</span>
+                     </div>
+                  </div>
                </div>
-            </section>
+
+               <div class="item-de-compra">
+                  <figure>
+                     <img class="square-img" src="../IMG/ITENS/enroladinho.webp" alt="enroladinho de salsicha">
+                     <figcaption>
+                        Desfrute de um irresistível enroladinho de salsicha, com massa crocante e salsichas suculentas. Uma explosão de sabor em cada mordida! 🌭🥐
+                     </figcaption>
+                  </figure>
+                  <div class="texto-e-descricao">
+                     <h3>enroladinho</h3>
+                     <p>
+                        Desfrute de um irresistível enroladinho de salsicha, com massa crocante e salsichas suculentas. Uma explosão de sabor em cada mordida! 🌭🥐
+                     </p>
+                     <span>R$ 3,00</span>
+                     <div class="botoes-de-acao">
+                        <span class="diminuir-qtd">-</span>
+                        <span class="qtd">0</span>
+                        <span class="adicionar-qtd">+</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="item-de-compra">
+                  <figure>
+                     <img class="square-img" src="../IMG/ITENS/pastel-de-frango-com-queijo-e-milho.webp" alt="pastel de frango com queijo">
+                     <figcaption>
+                        Recheado com frango suculento, queijo derretido, tomate fresco, cebola, milho, ervilha e o toque perfeito de ketchup, maionese e mostarda. Uma explosão de sabores em cada pedaço! 🥟🧀✨
+                     </figcaption>
+                  </figure>
+                  <div class="texto-e-descricao">
+                     <h3>pastel de frango</h3>
+                     <p>
+                        Recheado com frango suculento, queijo derretido, tomate fresco, cebola, milho, ervilha e o toque perfeito de ketchup, maionese e mostarda. Uma explosão de sabores em cada pedaço! 🥟🧀✨
+                     </p>
+                     <span>R$ 5,00</span>
+                     <div class="botoes-de-acao">
+                        <span class="diminuir-qtd">-</span>
+                        <span class="qtd">0</span>
+                        <span class="adicionar-qtd">+</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="item-de-compra">
+                  <figure>
+                     <img class="square-img" src="../IMG/ITENS/pastel-de-calabresa-c-queijo.webp" alt="pastel de queijo c/ calabresa">
+                     <figcaption>
+                        Um delicioso pastel de queijo com calabresa, recheado com tomate, cebola, milho, ervilha, ketchup, maionese e mostarda. Sabor inigualável em cada mordida! 🧀🌶️🍅🌽🥧
+                     </figcaption>
+                  </figure>
+                  <div class="texto-e-descricao">
+                     <h3>pastel de calabresa</h3>
+                     <p>
+                        Um delicioso pastel de queijo com calabresa, recheado com tomate, cebola, milho, ervilha, ketchup, maionese e mostarda. Sabor inigualável em cada mordida! 🧀🌶️🍅🌽🥧
+                     </p>
+                     <span>R$ 5,00</span>
+                     <div class="botoes-de-acao">
+                        <span class="diminuir-qtd">-</span>
+                        <span class="qtd">0</span>
+                        <span class="adicionar-qtd">+</span>
+                     </div>
+                  </div>
+               </div>
+            </fieldset>
          </div>
       </main>
       <footer class="footer">

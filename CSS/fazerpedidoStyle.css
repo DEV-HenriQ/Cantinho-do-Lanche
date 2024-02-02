@@ -23,6 +23,8 @@ main
 {
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
    min-height: var(100vh - 140px);
 }
 
@@ -53,66 +55,131 @@ main
    animation: shake 1s 1s infinite linear;
 }
 
-.form, .tabela
+/* Css do cardápio */
+
+.tipo-de-lanche
 {
    border: 1px solid #fff;
-   padding: 2rem;
    border-radius: 20px;
-   box-shadow: 2px 2px 5px #fff;
-   width: 500px;
-   color: #fff;
-}
-
-#pedido
-{
+   margin: 2rem;
+   padding: 1rem;
    display: flex;
    flex-wrap: wrap;
+   gap: 20px;
    justify-content: center;
-   gap: 1rem;
+   align-items: center;
 }
 
-.tabela
+.tipo-de-lanche legend
 {
-   text-align: left;
-}
-
-.tabela * {display: inline-block;}
-
-.tabela h2
-{
-   font-size: 20pt;
+   color: #fff;
+   font-family: "Abril Fatface";
+   padding: 10px;
+   font-size: 1.5rem;
    text-transform: uppercase;
-   font-family: 'Arial Black';
-   margin-bottom: 10px;
+}
+
+.item-de-compra
+{
+   display: flex;
+   width: 500px;
+   height: 300px;
+   border: 2px solid var(--pink);
+   border-radius: 20px;
+   box-shadow: 3px 3px 2px var(--green);
+}
+
+.item-de-compra figure
+{
+   position: relative;
+   cursor: pointer;
+}
+
+.item-de-compra figure figcaption
+{
+   position: absolute;
+   top: 0%;
+   background-color: #00000098;
    display: flex;
    justify-content: center;
-}
-
-.titulo-tabela
-{
-   font-family: 'Algerian';
-   font-size: 18pt;
-   margin-bottom: 10px;
-}
-
-.item-tabela
-{
-   font-size: 14pt;
+   align-items: center;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   height: 300px;
+   color: #fff;
    font-family: 'Cooper Black';
-   margin-left: 30px;
-   margin-bottom: 10px;
+   transition: .6s;
+   opacity: 0;
+   font-style: italic;
 }
 
-.flex-tabela
+.item-de-compra figure:hover figcaption
+{
+   opacity: 1;
+}
+
+.square-img
+{
+   width: 300px;
+   height: 296px;
+   border-top-left-radius: 17px;
+   border-bottom-left-radius: 17px;
+}
+
+.texto-e-descricao
 {
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
+   padding: .5rem;
+   color: #fff;
 }
 
-.ul-tabela
+.texto-e-descricao h3
 {
-   margin-left: 100px;
-   font-family: 'Cooper Black';
+   font-size: 1.2rem;
+   font-family: 'Algerian';
 }
 
-.ul-tabela li {display: list-item;}
+.texto-e-descricao p
+{
+   font-family: 'Arial Black';
+   font-size: .75rem;
+}
+
+.texto-e-descricao > span
+{
+   font-family: 'Arial Black';
+   font-size: 1.3rem;
+   color: var(--green);
+}
+
+.botoes-de-acao
+{
+   font-family: 'Arial Black';
+   display: flex;
+   gap: 5px;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 2rem;
+   text-align: center;
+   height: 50px;
+}
+
+.botoes-de-acao span
+{
+   text-align: center;
+   width: 50px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.diminuir-qtd, .adicionar-qtd
+{
+   background-color: var(--pink);
+   padding: 1rem;
+   border-radius: 20px;
+   cursor: pointer;
+}
