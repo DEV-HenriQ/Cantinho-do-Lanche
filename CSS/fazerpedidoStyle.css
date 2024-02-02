@@ -55,6 +55,28 @@ main
    animation: shake 1s 1s infinite linear;
 }
 
+.icone-de-carrinho
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   width: 50px;
+   cursor: pointer;
+   background-color: var(--green);
+   padding: .7rem;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 50px;
+   left: 10px;
+   z-index: 10;
+}
+
+.scaling-animation
+{
+   animation: scaling 1s forwards;
+}
+
 /* Css do cardápio */
 
 .tipo-de-lanche
@@ -212,4 +234,13 @@ main
       transform: translateX(-300px);
    }
    100% {transform: translateX(0); opacity: 1;}
+}
+
+@keyframes scaling
+{
+   0% {transform: scale(1);}
+   25% {transform: scale(1.2);}
+   50% {transform: scale(1);}
+   75% {transform: scale(1.2);}
+   100% {transform: scale(1);}
 }
