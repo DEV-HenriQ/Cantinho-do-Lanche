@@ -30,7 +30,6 @@ main
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   min-height: var(100vh - 140px);
 }
 
 #titulo
