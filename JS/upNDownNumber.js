@@ -1,20 +1,26 @@
 // Botão de mais
-
-let pressionado = false;
 let intervalId;
 
 const allPlus = document.querySelectorAll('.adicionar-qtd');
 
 allPlus.forEach(function (cada) {
    cada.addEventListener('mousedown', function () {
-      pressionado = true;
       intervalId = setInterval(function () {
          plusSpan(cada); // passando o objeto 'cada' como argumento
       }, 150);
    });
 
    cada.addEventListener('mouseup', function () {
-      pressionado = false;
+      clearInterval(intervalId);
+   });
+
+   cada.addEventListener('touchstart', function () {
+      intervalId = setInterval(function () {
+         plusSpan(cada); // passando o objeto 'cada' como argumento
+      }, 150);
+   });
+
+   cada.addEventListener('touchend', function () {
       clearInterval(intervalId);
    });
 
