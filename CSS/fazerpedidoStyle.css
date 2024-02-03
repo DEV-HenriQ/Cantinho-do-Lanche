@@ -199,27 +199,28 @@ main
    height: 50px;
 }
 
-.botoes-de-acao span
-{
-   text-align: center;
-   width: 50px;
-   height: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.diminuir-qtd, .adicionar-qtd
+.diminuir-qtd, .adicionar-qtd, .qtd
 {
    padding: 1rem;
    border-radius: 20px;
    cursor: pointer;
+   outline: none;
+   border: none;
+   color: #fff;
+   font-family: 'Arial Black';
+   font-size: 2rem;
+   width: 50px;
+   height: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .diminuir-qtd {background-color: var(--red);}
 .adicionar-qtd {background-color: var(--green);}
 
-/* keyframes dis itens */
+/* keyframes dos itens */
 
 .slideNappear {opacity: 0; animation: slideNappear .3s forwards;}
 .slideNappear2 {opacity: 0; animation: slideNappear .3s .3s forwards;}
@@ -256,4 +257,44 @@ main
    50% {transform: scale(1);}
    75% {transform: scale(1.2);}
    100% {transform: scale(1);}
+}
+
+/* classe indisponivel */
+
+.indisponivel-div
+{
+   display: none;
+}
+
+.item-de-compra.indisponivel img
+{
+   filter: grayscale(100%);
+}
+
+.item-de-compra.indisponivel figcaption
+{
+   z-index: -2;
+}
+
+.item-de-compra.indisponivel figure {cursor: default}
+
+.item-de-compra.indisponivel .indisponivel-div {
+   color: #fff; /* Texto em branco */
+   padding: 5px;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   width: 100%;
+   text-align: center;
+   display: unset;
+   font-family: 'Arial Black';
+   font-size: 1.5rem;
+   background-color: var(--red);
+   text-transform: uppercase;
+}
+
+.gray
+{
+   filter: grayscale(100%);
+   cursor: default;
 }

@@ -43,7 +43,7 @@
       border: 0;
    }
 
-   .item-de-compra, .square-img, .item-de-compra figure figcaption
+   .item-de-compra, .square-img, .item-de-compra figure figcaption, .indisponivel-div
    {
       width: 100%;
       max-width: 300px;

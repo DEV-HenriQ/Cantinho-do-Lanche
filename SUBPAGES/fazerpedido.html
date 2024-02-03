@@ -17,6 +17,7 @@
       <link rel="stylesheet" href="../CSS/fazerpedidosQuery.css">
       <!-- SCRIPTS (NÃO ESQUECER DO ATRIBUTO 'DEFER') -->
       <script src="../JS/addNremoveClassFromCart.js" defer></script>
+      <script src="../JS/addGrayscaleToButtons.js" defer></script>
       
    </head>
    <body>
@@ -57,12 +58,15 @@
             <fieldset class="tipo-de-lanche">
                <legend>Salgados</legend>
 
-               <div class="item-de-compra slideNappear">
+               <div class="item-de-compra slideNappear indisponivel">
                   <figure>
                      <img class="square-img" loading="lazy" src="../IMG/ITENS/coxinha-g.webp" alt="coxinha de tamanho médio">
                      <figcaption>
                         Uma coxinha média, delicadamente dourada, com recheio generoso de frango, proporcionando uma experiência equilibrada e deliciosamente irresistível a cada apreciação. 🍗🥟✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>coxinha média</h3>
@@ -71,9 +75,9 @@
                      </p>
                      <span>R$ 3,50</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -84,6 +88,9 @@
                      <figcaption>
                         Uma coxinha pequena, grande em sabor! A mordida perfeita revela um recheio suculento de frango, proporcionando uma experiência irresistível a cada pedacinho crocante. Imperdível! 🍗🥟✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>coxinha pequena</h3>
@@ -92,9 +99,9 @@
                      </p>
                      <span>R$ 2,50</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -105,6 +112,9 @@
                      <figcaption>
                         Desfrute de um irresistível enroladinho de salsicha, com massa crocante e salsichas suculentas. Uma explosão de sabor em cada mordida! 🌭🥐
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>enroladinho</h3>
@@ -113,9 +123,9 @@
                      </p>
                      <span>R$ 3,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -126,6 +136,9 @@
                      <figcaption>
                         Recheado com frango suculento, queijo derretido, tomate fresco, cebola, milho, ervilha e o toque perfeito de ketchup, maionese e mostarda. Uma explosão de sabores em cada pedaço! 🥟🧀✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>pastel de frango</h3>
@@ -134,9 +147,9 @@
                      </p>
                      <span>R$ 5,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -147,6 +160,9 @@
                      <figcaption>
                         Um delicioso pastel de queijo com calabresa, recheado com tomate, cebola, milho, ervilha, ketchup, maionese e mostarda. Sabor inigualável em cada mordida! 🧀🌶️🍅🌽🥧
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>pastel de calabresa</h3>
@@ -155,9 +171,9 @@
                      </p>
                      <span>R$ 5,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -172,6 +188,9 @@
                      <figcaption>
                         Desfrute do nosso delicioso Dudu de Coco! Uma explosão tropical de sabor do coco fresco, irresistivelmente doce e gelado. Refresque-se com esta experiência única! 🥥🍦
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>dudu de coco</h3>
@@ -180,9 +199,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -193,6 +212,9 @@
                      <figcaption>
                         Deleite-se com nosso Dudu de Goiaba! Uma experiência celestial de goiaba fresca, doçura irresistível e gelado refrescante. Desperte seus sentidos com este sabor tropical! 🍧🌺
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>dudu de goiaba</h3>
@@ -201,9 +223,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -214,6 +236,9 @@
                      <figcaption>
                         Desfrute do nosso Dudu de Maracujá! Uma explosão tropical de sabores intensos e refrescantes. Sinta a refrescância do verão! 🍧🌴🌟
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>dudu de maracujá</h3>
@@ -222,9 +247,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -235,6 +260,9 @@
                      <figcaption>
                         Experimente o Dudu de Cajá, uma mistura irresistível de sabores agridoces que vai conquistar seu paladar. Uma experiência tropical geladinha. 🍧🌺🌟
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>dudu de cajá</h3>
@@ -243,9 +271,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -256,6 +284,9 @@
                      <figcaption>
                         Descubra o delicioso Dudu de Chocolate com Coco, uma combinação de sabores que vai encantar seu paladar. Entregue-se ao sabor irresistível! 🍫🥥🌟
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>dudu de chocolate c/ coco</h3>
@@ -264,9 +295,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -281,6 +312,9 @@
                      <figcaption>
                         Saboreie um verdadeiro Brigadeirão, uma obra-prima doce que derrete na boca. Feito com chocolate ao leite e coberto com granulado é uma explosão de sabor em cada mordida. Deleite-se! 🍫✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>brigadeirão</h3>
@@ -289,9 +323,9 @@
                      </p>
                      <span>R$ 1,50</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -302,6 +336,9 @@
                      <figcaption>
                         Desfrute do sabor único do nosso Pastel Lolita, recheado com doce de goiaba e polvilhado com açúcar. Uma experiência irresistível que encanta paladares. Surpreenda-se! 🍬✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>pastel lolita</h3>
@@ -310,9 +347,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -327,6 +364,9 @@
                      <figcaption>
                         Desfrute de uma explosão refrescante com o Indaiá Refri 250ml. O sabor autêntico do guaraná em cada gole, perfeito para momentos de puro prazer! 🥤✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>refri 250ml guaraná</h3>
@@ -335,9 +375,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -348,6 +388,9 @@
                      <figcaption>
                         Mergulhe no sabor intenso da Indaiá Refri Cola 250ml. Uma experiência única, equilibrada e deliciosamente refrescante. Satisfaça sua sede com um toque de cola irresistível! 🥤✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>refri 250ml cola</h3>
@@ -356,9 +399,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -369,6 +412,9 @@
                      <figcaption>
                         Desperte seus sentidos com a vibrante Indaiá Refri de Laranja 250ml. Uma explosão cítrica de frescor em cada gole. Deleite-se com a energia e o sabor da laranja! 🍊🥤✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>refri 250ml laranja</h3>
@@ -377,9 +423,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -390,6 +436,9 @@
                      <figcaption>
                         Refresque-se com o Indaiá Refri de Limão 250ml. Uma combinação perfeita de acidez e doçura que vai despertar seu paladar. Aprecie o sabor cítrico e revigorante! 🍋🥤✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>refri 250ml limão</h3>
@@ -398,9 +447,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
@@ -411,6 +460,9 @@
                      <figcaption>
                         Delicie-se com o Indaiá Refri de Uva 250ml. Um sabor intenso e irresistível que vai levar você a uma experiência única. Refresque-se com essa explosão de uva! 🍇🥤✨
                      </figcaption>
+                     <div class=indisponivel-div>
+                        <span class="indisponivel-txt">em falta... 😓</span>
+                     </div>
                   </figure>
                   <div class="texto-e-descricao">
                      <h3>refri 250ml uva</h3>
@@ -419,9 +471,9 @@
                      </p>
                      <span>R$ 2,00</span>
                      <div class="botoes-de-acao">
-                        <span class="diminuir-qtd">-</span>
+                        <button class="diminuir-qtd">-</button>
                         <span class="qtd">0</span>
-                        <span class="adicionar-qtd">+</span>
+                        <button class="adicionar-qtd">+</button>
                      </div>
                   </div>
                </div>
