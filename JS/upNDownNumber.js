@@ -32,6 +32,11 @@ allPlus.forEach(function (cada) {
 function plusSpan(element) {
    let qtd = element.previousElementSibling
    qtd.innerHTML = Number(qtd.innerHTML) + 1;
+   if (Number(qtd.innerHTML) == 1)
+   {
+      let contador = document.getElementById('contador')
+      contador.innerHTML = Number(contador.innerHTML) + 1
+   }
 }
 
 // Botão de menos
@@ -78,6 +83,10 @@ function minusSpan(element) {
       {
          let qtd = element.nextElementSibling
          qtd.innerHTML = Number(qtd.innerHTML) - 1;
+         if (qtd.innerHTML == 0)
+         {
+            document.getElementById('contador').innerHTML = Number(document.getElementById('contador').innerHTML -1)
+         }
       }
    }
 }
