@@ -341,7 +341,7 @@ main
    opacity: 0;
 }
 
-#fechar-div
+#fechar-div, #fechar-div-2
 {
    width: 65px;
    height: 65px;
@@ -358,7 +358,7 @@ main
    cursor: pointer;
 }
 
-.meu-pedido h1
+.meu-pedido h1, .formulario h1
 {
    font-size: 1.5rem;
    margin-top: 50px;
@@ -371,7 +371,7 @@ main
 {
    width: 100%;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    padding: 2rem;
 }
 
@@ -433,6 +433,12 @@ main
 
 .esmaecer-2 {animation: esmaecer-2 .6s forwards;}
 
+.vai
+{
+   display: flex;
+   justify-content: center;
+}
+
 .footer
 {
    margin-top: 80px;
@@ -450,16 +456,106 @@ main
    border: 4px solid var(--green);
 }
 
-.meu-pedido::-webkit-scrollbar
+.meu-pedido::-webkit-scrollbar, .formulario::-webkit-scrollbar
 {
    width: 5px;
    height: 5px;
    background-color: transparent;
 }
 
-.meu-pedido::-webkit-scrollbar-thumb
+.meu-pedido::-webkit-scrollbar-thumb, .formulario::-webkit-scrollbar
 {
    background-color: rebeccapurple;
    border: 4px solid transparent;
    border-radius: 10px;
+}
+
+.formulario
+{
+   width: 95vw;
+   height: calc(100% - 2rem);
+   background-color: #fff;
+   border: 1px solid black;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   position: absolute;
+   top: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   overflow-y: scroll;
+   opacity: 0;
+}
+
+.minhas-info
+{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.minhas-info div
+{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.minhas-info label
+{
+   font-size: 1.2rem
+}
+
+.minhas-info input
+{
+   border: 0;
+   border-bottom: 1px solid #000;
+   padding: .5rem;
+   margin-left: .5rem;
+}
+
+.minhas-info select
+{
+   margin-left: .5rem;
+   font-size: 1.2rem;
+}
+
+.observacoes
+{
+   flex-direction: column;
+}
+
+.observacoes textarea
+{
+   font-size: 1.2rem;
+   padding: 1rem;
+   border-radius: 20px;
+}
+
+.aparecer-2
+{
+   opacity: 1;
+   z-index: 22;
+}
+
+.desaparecer-2
+{
+   opacity: 0;
+   z-index: -10;
+}
+
+.zapzap
+{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+#mandar-pro-zap
+{
+   text-decoration: none;
+   border: 1px solid #000;
+   padding: .4rem;
+   width: 100px;
 }
