@@ -5,6 +5,12 @@ function verifyQtd()
 {
    abrirEfechar()
    let totalPedido = 0
+   const meusItens = document.querySelector('.meus-itens')
+   const osItens = document.querySelector('.os-itens')
+   const msgDosItens = document.querySelector('.msg-dos-itens')
+   msgDosItens.innerHTML = ''
+   osItens.innerHTML = ''
+
    const allItens = document.querySelectorAll('.item-de-compra')
    allItens.forEach(function(cada)
    {
@@ -17,17 +23,31 @@ function verifyQtd()
          let valorTotal = transform(valorUnitario, qtd)
          totalPedido+= valorTotal
 
-         console.log(`${quantidade} - ${nome} - R$ ${valorUnitario} - R$ ${valorTotal.toFixed(2).replace('.',',')}`)
+         let pg = document.createElement('p')
+         pg.innerHTML = `${quantidade} - ${nome} - R$ ${valorTotal.toFixed(2).replace('.',',')}`
+         osItens.append(pg)
       }
    })
    if (totalPedido == 0)
    {
-      console.log('Carrinho vazio =(\nAdicione itens ao carrinho...')
-      return
+      osItens.innerHTML = `<img src="../IMG/vazio.jpg" alt="imagem representando vazio" width="180px" height="180px">`
+      document.querySelector('.vai').disabled = true
+      document.querySelector('.vai').classList.add('gray-1')
    }
-   console.log(`Valor dos produtos = ${(totalPedido).toFixed(2).replace('.',',')}`)
-   console.log('Frete = R$ 5,00')
-   console.log(`Valor total = R$ ${(totalPedido + 5).toFixed(2).replace('.',',')}`)
+   else
+   {
+      document.querySelector('.vai').disabled = false
+      document.querySelector('.vai').classList.remove('gray-1')
+
+      let p1 = document.createElement('p')
+      p1.innerHTML = `Valor dos produtos = R$ ${(totalPedido).toFixed(2).replace('.',',')}`
+      let p2 = document.createElement('p')
+      p2.innerHTML = 'Frete = R$ 5,00'
+      let p3 = document.createElement('p')
+      p3.innerHTML = `Valor total = R$ ${(totalPedido + 5).toFixed(2).replace('.',',')}`
+
+      msgDosItens.append(p1,p2,p3)
+   }
 }
 
 function transform(valor, quantidade)

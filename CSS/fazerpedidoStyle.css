@@ -18,6 +18,7 @@
    src: url(../FONTS/Super\ Magic.ttf);
 }
 
+
 main
 {
    justify-content: start;
@@ -302,7 +303,7 @@ main
    text-transform: uppercase;
 }
 
-.gray
+.gray, .gray-1
 {
    filter: grayscale(100%);
    cursor: default;
@@ -313,21 +314,26 @@ main
    display: flex;
    justify-content: center;
    align-items: center;
-   min-width: 95vw;
-   min-height: 100vh;
+   width: 100vw;
+   height: calc(100vh);
    position: fixed;
    opacity: 0;
+   z-index: -10;
 }
 
 .meu-pedido
 {
    width: 95vw;
-   min-height: 99vh;
+   min-height: calc(100vh - 2rem);
    background-color: #fff;
    border: 1px solid black;
    border-radius: 20px;
-   position: fixed;
-   margin: 1rem;
+   position: absolute;
+   top: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
 }
 
 #fechar-div
@@ -345,6 +351,59 @@ main
    right: -10px;
    top: -10px;
    cursor: pointer;
+}
+
+.meu-pedido h1
+{
+   font-size: 1.5rem;
+   margin-top: 50px;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: 'Algerian';
+}
+
+.botao-de-avancar
+{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   padding: 2rem;
+}
+
+.botao-de-avancar button
+{
+   display: inline-block;
+   width: calc(50px + .5rem);
+   height: calc(50px + .5rem);
+   transform: rotate(180deg);
+   border: 1px solid black;
+   border-radius: 20px;
+   cursor: pointer;
+   transition: .3s;
+   background-color: var(--pink);
+}
+
+.meus-itens, .os-itens, .msg-dos-itens
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+
+.os-itens p
+{
+   font-style: italic;
+   font-size: 1rem;
+   text-transform: uppercase;
+}
+
+.msg-dos-itens
+{
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   font-weight: 600;
 }
 
 .aparecer
