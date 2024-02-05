@@ -452,14 +452,14 @@ main
 
 .meu-pedido::-webkit-scrollbar
 {
-   width: 12px;
+   width: 5px;
    height: 5px;
-   background-color: rgb(250, 235, 215);
+   background-color: transparent;
 }
 
 .meu-pedido::-webkit-scrollbar-thumb
 {
-   background-color: #000;
-   border: 4px solid rgb(250, 235, 215);
+   background-color: rebeccapurple;
+   border: 4px solid transparent;
    border-radius: 10px;
 }
