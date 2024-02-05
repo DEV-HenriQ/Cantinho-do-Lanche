@@ -319,6 +319,8 @@ main
    position: fixed;
    opacity: 0;
    z-index: -10;
+   background-color: #000000ad;
+   backdrop-filter: blur(5px);
 }
 
 .meu-pedido
@@ -327,7 +329,8 @@ main
    height: calc(100% - 2rem);
    background-color: #fff;
    border: 1px solid black;
-   border-radius: 20px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
    position: absolute;
    top: auto;
    display: flex;
@@ -335,6 +338,7 @@ main
    align-items: center;
    justify-content: space-between;
    overflow-y: scroll;
+   opacity: 0;
 }
 
 #fechar-div
@@ -395,12 +399,13 @@ main
 
 .os-itens
 {
-   max-height: 220px;
+   max-height: 250px;
    padding: 1rem;
    overflow-y: scroll;
    border: 1px solid #000;
    box-shadow: 2px 2px 5px #000;
-   border-radius: 20px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
 }
 
 .os-itens p
@@ -408,6 +413,8 @@ main
    font-style: italic;
    font-size: 1rem;
    text-transform: uppercase;
+   font-weight: 600;
+   word-spacing: 3px;
 }
 
 .msg-dos-itens
@@ -418,17 +425,41 @@ main
    font-weight: 600;
 }
 
-.aparecer
-{
-   animation: surgir .6s forwards;
-}
+.aparecer {animation: surgir .6s .6s forwards;}
 
-.desaparecer
-{
-   animation: desaparecer .6s forwards;
-}
+.desaparecer {animation: desaparecer .6s forwards;}
+
+.esmaecer-1 {animation: esmaecer-1 .6s forwards;}
+
+.esmaecer-2 {animation: esmaecer-2 .6s forwards;}
 
 .footer
 {
    margin-top: 80px;
+}
+
+.os-itens::-webkit-scrollbar {
+   width: 10px;
+   height: 15px;
+   background-color: var(--green);
+}
+
+.os-itens::-webkit-scrollbar-thumb {
+   background-color: rebeccapurple;
+   border-radius: 10px;
+   border: 4px solid var(--green);
+}
+
+.meu-pedido::-webkit-scrollbar
+{
+   width: 12px;
+   height: 5px;
+   background-color: rgb(250, 235, 215);
+}
+
+.meu-pedido::-webkit-scrollbar-thumb
+{
+   background-color: #000;
+   border: 4px solid rgb(250, 235, 215);
+   border-radius: 10px;
 }
