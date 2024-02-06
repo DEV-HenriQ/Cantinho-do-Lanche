@@ -153,6 +153,7 @@ main
    transition: .6s;
    opacity: 0;
    font-style: italic;
+   padding: .5rem;
 }
 
 .item-de-compra figure:hover figcaption
