@@ -250,6 +250,7 @@ main
 .slideNappear15 {opacity: 0; animation: slideNappear .3s 4.2s forwards;}
 .slideNappear16 {opacity: 0; animation: slideNappear .3s 4.5s forwards;}
 .slideNappear17 {opacity: 0; animation: slideNappear .3s 4.8s forwards;}
+.slideNappear18 {opacity: 0; animation: slideNappear .3s 5.1s forwards;}
 
 @keyframes slideNappear 
 {
