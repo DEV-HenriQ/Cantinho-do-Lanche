@@ -1,1 +1,1 @@
-Cantinho do Lanche é um site criado para ser uma landing page de conversão de vendas. A lanchonete é da minha família, onde criei este site para facilitar a venda pela cidade.
+Cantinho do Lanche é um site criado para ser uma página de conversão de vendas de uma lanchonete. Eles tem uma página de apresentação e uma página de pedidos, onde a gente pode ver o cardápio do local e fazer o pedido pra eles.
