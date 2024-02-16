@@ -252,6 +252,13 @@ main
 .slideNappear17 {opacity: 0; animation: slideNappear .3s 4.8s forwards;}
 .slideNappear18 {opacity: 0; animation: slideNappear .3s 5.1s forwards;}
 .slideNappear19 {opacity: 0; animation: slideNappear .3s 5.4s forwards;}
+.slideNappear20 {opacity: 0; animation: slideNappear .3s 5.7s forwards;}
+.slideNappear21 {opacity: 0; animation: slideNappear .3s 6s forwards;}
+.slideNappear22 {opacity: 0; animation: slideNappear .3s 6.3s forwards;}
+.slideNappear23 {opacity: 0; animation: slideNappear .3s 6.6s forwards;}
+.slideNappear24 {opacity: 0; animation: slideNappear .3s 6.9s forwards;}
+.slideNappear25 {opacity: 0; animation: slideNappear .3s 7.2s forwards;}
+.slideNappear26 {opacity: 0; animation: slideNappear .3s 7.5s forwards;}
 
 @keyframes slideNappear 
 {
