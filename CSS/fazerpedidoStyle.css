@@ -259,6 +259,7 @@ main
 .slideNappear24 {opacity: 0; animation: slideNappear .3s 6.9s forwards;}
 .slideNappear25 {opacity: 0; animation: slideNappear .3s 7.2s forwards;}
 .slideNappear26 {opacity: 0; animation: slideNappear .3s 7.5s forwards;}
+.slideNappear27 {opacity: 0; animation: slideNappear .3s 7.8s forwards;}
 
 @keyframes slideNappear 
 {
